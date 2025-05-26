@@ -1,0 +1,36 @@
+.container { 
+    width: 700px;
+    height: 500px;
+    display: grid;
+    border: 5px solid black;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.about1 {
+    background-color: blue;
+    grid-column: 1/5;
+    grid-row: 1/2;
+    
+}
+
+.about2 {
+    background-color: palevioletred;
+    grid-column: 1/5;
+    grid-row: 2/4;
+}
+
+.about3{
+    background-color: rgb(43, 83, 43);
+    grid-column: 1/7;
+    grid-row: 4/7;
+}
+
+.about4 {
+    background-color: rgb(133, 29, 29);
+    grid-column: 5/7;
+    grid-row: 1/4;
+}
